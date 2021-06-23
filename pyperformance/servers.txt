@@ -1,0 +1,204 @@
+AWS - c5.large
+RHEL-8.4.0_HVM-20210504-x86_64-2-Hourly2-GP2
+
+
+AWS - c6g.large
+RHEL-8.4.0_HVM-20210504-arm64-2-Hourly2-GP2
+
+
+c5.large
+--------
+Details
+Instance type
+c5.large
+Instance family
+c5
+Instance size
+large
+Hypervisor
+nitro
+Auto Recovery support
+true
+Supported root device types
+ebs
+Dedicated Host support
+true
+On-Demand Hibernation support
+true
+Burstable Performance support
+-
+Compute
+Free-Tier eligible
+false
+Free Trial available
+false
+Bare metal
+false
+vCPUs
+2
+Architecture
+x86_64
+Cores
+1
+Valid cores
+1
+Threads per core
+2
+Valid threads per core
+1,2
+Sustained clock speed (GHz)
+3.4
+Memory (GiB)
+4
+Current generation
+true
+Networking
+Availability zones
+us-east-1a, us-east-1b, us-east-1c, us-east-1d, us-east-1f
+EBS optimization support
+default
+Network performance
+Up to 10 Gigabit
+ENA support
+required
+Maximum number of network interfaces
+3
+IPv4 addresses per interface
+10
+IPv6 addresses per interface
+10
+IPv6 support
+true
+Supported placement group strategies
+cluster, partition, spread
+Storage
+Storage (GB)
+-
+Local instance storage
+-
+Storage type
+-
+Storage disk count
+-
+EBS encryption support
+supported
+Accelerators
+GPUs
+-
+GPU memory (GiB)
+-
+GPU manufacturer
+-
+GPU name
+-
+FPGAs
+-
+FPGA memory (GiB)
+-
+FPGA manufacturer
+-
+FPGA name
+-
+Pricing
+On-Demand Linux pricing
+0.085 USD per Hour
+On-Demand Windows pricing
+0.177 USD per Hour
+
+
+c6g.large
+-------
+Details
+Instance type
+c6g.large
+Instance family
+c6g
+Instance size
+large
+Hypervisor
+nitro
+Auto Recovery support
+true
+Supported root device types
+ebs
+Dedicated Host support
+true
+On-Demand Hibernation support
+-
+Burstable Performance support
+-
+Compute
+Free-Tier eligible
+false
+Free Trial available
+false
+Bare metal
+false
+vCPUs
+2
+Architecture
+arm64
+Cores
+2
+Valid cores
+1,2
+Threads per core
+1
+Valid threads per core
+1
+Sustained clock speed (GHz)
+2.5
+Memory (GiB)
+4
+Current generation
+true
+Networking
+Availability zones
+us-east-1a, us-east-1b, us-east-1c, us-east-1d, us-east-1f
+EBS optimization support
+default
+Network performance
+Up to 10 Gigabit
+ENA support
+required
+Maximum number of network interfaces
+3
+IPv4 addresses per interface
+10
+IPv6 addresses per interface
+10
+IPv6 support
+true
+Supported placement group strategies
+cluster, partition, spread
+Storage
+Storage (GB)
+-
+Local instance storage
+-
+Storage type
+-
+Storage disk count
+-
+EBS encryption support
+supported
+Accelerators
+GPUs
+-
+GPU memory (GiB)
+-
+GPU manufacturer
+-
+GPU name
+-
+FPGAs
+-
+FPGA memory (GiB)
+-
+FPGA manufacturer
+-
+FPGA name
+-
+Pricing
+On-Demand Linux pricing
+0.068 USD per Hour
