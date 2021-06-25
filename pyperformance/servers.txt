@@ -1,3 +1,18 @@
+Costs:
+Spot
+m6g.16xlarge	$0.6705 per Hour
+c6g.16xlarge	$0.6385 per Hour
+r4.16xlarge	  $0.778 per Hour
+r5.16xlarge	  $0.7021 per Hour
+
+Reserved Instance Plans 
+Instance name RI upfront fee  RI monthly fees*  RI effective hourly rate**  Savings over On-Demand  On-Demand rate
+r4.16xlarge	  $0	            $1,962.24	        $2.688	                    37%	                    $4.2560
+r5.16xlarge	  $0	            $1,854.20	        $2.540	                    37%	                    $4.0320
+m6g.16xlarge	$0	            $1,128.29	        $1.546	                    37%	                    $2.4640
+c6g.16xlarge	$0	            $1,000.76	        $1.371	                    37%	                    $2.1760
+
+
 AWS - c5.large
 RHEL-8.4.0_HVM-20210504-x86_64-2-Hourly2-GP2
 
