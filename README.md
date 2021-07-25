@@ -174,7 +174,7 @@ Benchmark hidden because not significant (1): sympy_str
 ## Numpy and Scipy
 
 The pyperformance suite does not include in BLAS/LAPACK workloads which are typically used in financial computing. 
-To give more indictive results we need to run some numpy or scipy benchmarks.
+To give more indicative results we need to run some numpy or scipy benchmarks.
 
 
 ## Do different BLAS libraries make a meaningful difference ?
