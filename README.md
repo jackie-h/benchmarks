@@ -46,6 +46,8 @@ Using AWS hardware with these instance types
 
 Comparing the Graviton (m6g) instance with the older Intel with similar clock speed (r4) and the new Intel with faster clock speed (r5)
 
+Python 3.8 was used for this benchmark run
+
 | Benchmark               | m6g.large | r4.large               | r5.large              |
 | ----------------------- | --------- | ---------------------- | --------------------- |
 | 2to3                    | 489 ms    | 592 ms: 1.21x slower   | 471 ms: 1.04x faster  |
