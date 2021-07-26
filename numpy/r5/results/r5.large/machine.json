@@ -1,0 +1,9 @@
+{
+    "arch": "x86_64",
+    "cpu": "Intel(R) Xeon(R) Platinum 8259CL CPU @ 2.50GHz",
+    "machine": "r5.large",
+    "num_cpu": "2",
+    "os": "Linux 4.18.0-305.el8.x86_64",
+    "ram": "15909584",
+    "version": 1
+}
