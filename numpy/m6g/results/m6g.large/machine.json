@@ -1,0 +1,9 @@
+{
+    "arch": "aarch64",
+    "cpu": "2.50Ghz",
+    "machine": "m6g.large",
+    "num_cpu": "2",
+    "os": "Linux 4.18.0-305.el8.aarch64",
+    "ram": "7628800",
+    "version": 1
+}
