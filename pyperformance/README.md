@@ -26,7 +26,7 @@ Pyperformance Benchmark
 
 Numpy benchmark
 
-    1  git clone ...numpy
+    1  git clone https://github.com/numpy/numpy
     2  python3.9 -m pip install cpython
     3  python3.9 -m pip install Cython
     4  python3.9 -m pip install asv
