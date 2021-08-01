@@ -1,0 +1,33 @@
+Python 3.9
+r5.large
+--------
+Dotted two 4096x4096 matrices in 2.36 s.
+Dotted two vectors of length 524288 in 0.36 ms.
+SVD of a 2048x1024 matrix in 1.18 s.
+Cholesky decomposition of a 2048x2048 matrix in 0.22 s.
+Eigendecomposition of a 2048x2048 matrix in 9.75 s.
+
+r4.large
+--------
+Dotted two 4096x4096 matrices in 4.36 s.
+Dotted two vectors of length 524288 in 0.26 ms.
+SVD of a 2048x1024 matrix in 1.48 s.
+Cholesky decomposition of a 2048x2048 matrix in 0.21 s.
+Eigendecomposition of a 2048x2048 matrix in 12.20 s.
+
+m6g.large
+---------
+Dotted two 4096x4096 matrices in 3.79 s.
+Dotted two vectors of length 524288 in 0.13 ms.
+SVD of a 2048x1024 matrix in 1.18 s.
+Cholesky decomposition of a 2048x2048 matrix in 0.14 s.
+Eigendecomposition of a 2048x2048 matrix in 8.69 s.
+
+
+Matrix Mult:
+r5 : mat_mul: Mean +- std dev: 2.38 sec +- 0.00 sec
+r4 : mat_mul: Mean +- std dev: 4.36 sec +- 0.02 sec
+m6g: mat_mul: Mean +- std dev: 3.78 sec +- 0.00 sec
+
+
+
