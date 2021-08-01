@@ -1,4 +1,7 @@
 Python 3.9
+numpy-1.21.1
+openBlas
+
 r5.large
 --------
 Dotted two 4096x4096 matrices in 2.36 s.
@@ -29,5 +32,87 @@ r5 : mat_mul: Mean +- std dev: 2.38 sec +- 0.00 sec
 r4 : mat_mul: Mean +- std dev: 4.36 sec +- 0.02 sec
 m6g: mat_mul: Mean +- std dev: 3.78 sec +- 0.00 sec
 
+r5 numpy config:
 
+>>> import numpy as np
+>>> np.__config__.show()
+blas_mkl_info:
+  NOT AVAILABLE
+blis_info:
+  NOT AVAILABLE
+openblas_info:
+    libraries = ['openblas', 'openblas']
+    library_dirs = ['/usr/local/lib']
+    language = c
+    define_macros = [('HAVE_CBLAS', None)]
+    runtime_library_dirs = ['/usr/local/lib']
+blas_opt_info:
+    libraries = ['openblas', 'openblas']
+    library_dirs = ['/usr/local/lib']
+    language = c
+    define_macros = [('HAVE_CBLAS', None)]
+    runtime_library_dirs = ['/usr/local/lib']
+lapack_mkl_info:
+  NOT AVAILABLE
+openblas_lapack_info:
+    libraries = ['openblas', 'openblas']
+    library_dirs = ['/usr/local/lib']
+    language = c
+    define_macros = [('HAVE_CBLAS', None)]
+    runtime_library_dirs = ['/usr/local/lib']
+lapack_opt_info:
+    libraries = ['openblas', 'openblas']
+    library_dirs = ['/usr/local/lib']
+    language = c
+    define_macros = [('HAVE_CBLAS', None)]
+    runtime_library_dirs = ['/usr/local/lib']
+Supported SIMD extensions in this NumPy install:
+    baseline = SSE,SSE2,SSE3
+    found = SSSE3,SSE41,POPCNT,SSE42,AVX,F16C,FMA3,AVX2,AVX512F,AVX512CD,AVX512_SKX
+    not found = AVX512_KNL,AVX512_KNM,AVX512_CLX,AVX512_CNL,AVX512_ICL
+>>>
+
+m6g numpy config:
+
+>>> np.__config__.show()
+Traceback (most recent call last):
+  File "<stdin>", line 1, in <module>
+NameError: name 'np' is not defined
+>>> import numpy as np
+>>> np.__config__.show()
+blas_mkl_info:
+  NOT AVAILABLE
+blis_info:
+  NOT AVAILABLE
+openblas_info:
+    libraries = ['openblas', 'openblas']
+    library_dirs = ['/usr/local/lib']
+    language = c
+    define_macros = [('HAVE_CBLAS', None)]
+    runtime_library_dirs = ['/usr/local/lib']
+blas_opt_info:
+    libraries = ['openblas', 'openblas']
+    library_dirs = ['/usr/local/lib']
+    language = c
+    define_macros = [('HAVE_CBLAS', None)]
+    runtime_library_dirs = ['/usr/local/lib']
+lapack_mkl_info:
+  NOT AVAILABLE
+openblas_lapack_info:
+    libraries = ['openblas', 'openblas']
+    library_dirs = ['/usr/local/lib']
+    language = c
+    define_macros = [('HAVE_CBLAS', None)]
+    runtime_library_dirs = ['/usr/local/lib']
+lapack_opt_info:
+    libraries = ['openblas', 'openblas']
+    library_dirs = ['/usr/local/lib']
+    language = c
+    define_macros = [('HAVE_CBLAS', None)]
+    runtime_library_dirs = ['/usr/local/lib']
+Supported SIMD extensions in this NumPy install:
+    baseline = NEON,NEON_FP16,NEON_VFPV4,ASIMD
+    found = ASIMDHP,ASIMDDP
+    not found =
+>>>
 
