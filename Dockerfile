@@ -1,6 +1,6 @@
 
 
-FROM registry.access.redhat.com/rhel8/python-39
+FROM registry.access.redhat.com/ubi8/ubi-minimal
 
 COPY requirements.txt requirements.txt
 
