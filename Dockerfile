@@ -2,7 +2,7 @@
 
 FROM registry.access.redhat.com/ubi8/ubi
 
-RUN yum install @python39
+RUN yum -y install @python39
 
 COPY requirements.txt requirements.txt
 
