@@ -1,6 +1,6 @@
 
 
-FROM registry.access.redhat.com/ubi8/ubi-minimal
+FROM registry.access.redhat.com/ubi8/ubi
 
 RUN yum install @python39
 
