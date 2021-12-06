@@ -14,6 +14,7 @@ Install on Rhel
     sudo make altinstall
     python3.9 --version
     
+    sudo yum install @python39
 
     
     2  sudo yum install git
@@ -32,3 +33,11 @@ Numpy benchmark
     4  python3.9 -m pip install asv
     5  python3.9 -m pip install virtualenv
     6  python3.9 runtests.py --bench 
+
+
+Intel MKL
+
+python3.9 -m pip install mkl-devel
+
+
+
